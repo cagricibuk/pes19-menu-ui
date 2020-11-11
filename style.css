@@ -1,0 +1,157 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url('back1.jpg');
+  }
+
+
+  ul {
+      margin-top: 3%;
+    list-style-type: none;
+
+    margin-left:2%;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    background-color:rgb(52, 40, 155);
+    margin-left: 30px;
+    border-radius: 70px;
+    opacity: 0.5;
+    height: 2.7vw;
+    width: 16vw;
+  }
+  
+  li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.6vw 0.6vw;
+    text-decoration: none;
+    font-size: 1.1vw;
+  
+  }
+  
+  li a:hover {
+    border-radius: 70px;
+    color:rgb(29, 207, 184);
+    background-color:rgb(52, 40, 155);
+    
+    
+    
+    padding: 0.6vw 0.6vw;
+    display: block;
+    text-decoration: none;
+  }
+  li:hover{
+    opacity:1;
+  }
+
+  .card{
+    
+    
+    margin-top:1vw; 
+    margin-left:2vw;
+     flex: 1;
+
+  }
+  .cardBack{
+    border-radius: 30px;
+      background-color: white;
+      width: 21vw;
+      height: 28vw;
+     
+      
+  }
+#bos{
+  border-radius: 30px;
+  background-color: transparent;
+  width: 21vw;
+  height: 28vw;
+}
+
+
+  .cardBack h2{
+   margin-left:18%;
+   font-size: 1.3vw;
+}
+.cardBack img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+ }
+ .aciklama{
+margin-left: 8%;
+font-size: 1vw;
+ }
+ 
+ hr{
+     width: 80%;
+     opacity: 0.3;
+ }
+ #logo{
+     
+     width: 10vw;
+     margin-top:1%;
+     margin-left:3%;
+
+ }
+
+ #score{
+     margin-top: -2.5vw;
+     margin-left:70vw;
+    float: left;
+    width: 22vw;
+    height: 2vw;
+    
+    border-radius: 20px;
+    color:white;
+    background-color:black;
+    
+}
+#gp{
+    
+margin-top: 0.20vw;
+margin-left: 2vw;
+    width: 1.5vw;
+}
+#coin{
+    
+margin-left: 5vw;
+    width: 2.5vw;
+}
+
+
+
+#container{
+  position: relative;
+  overflow:hidden;
+
+  width: 900vw;
+  height: 30vw;
+  
+  display: flex;
+  
+
+}
+
+
+.instruction{
+  margin-top: 5vw;
+  background-color: black;
+  width: 75vw;
+  height: 2vw;
+  border-radius: 50px;
+  margin-left:8.3vw;
+  color:rgb(29, 207, 184);
+  
+  padding-left: 5vw;
+  font-size: large;
+}
+
+  
+html, body {margin: 0; height: 100%; overflow: hidden}
